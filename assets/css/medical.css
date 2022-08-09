@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #047eb3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .container{
+    width: 80%;
+    height: 100px;
+    background-color: #047eb3;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    padding-left: -5px;
+    padding-top: 20px;
+}
+
+.tv i{
+    color: red;
+}
+
+#header .container .navbar ul{
+    display: flex;
+    padding-top: 20px;
+}
+
+#header .container .navbar ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#header .container a{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    padding-left: 90px;
+    padding-top: 28px;
+}
+
+.search input{
+    width: 230px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 50px;
+    border: none;
+    border: outset;
+    outline: none;
+}
+
+.search i{
+    color: grey;
+    margin-left: -215px;
+    opacity: 0.5;
+}
+
+#header .container .search-login li{
+    list-style: none;
+    padding-left: 350px;
+    margin-top: -33px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(159, 157, 229)
+}
+
+#header2{
+    background-color: #047eb3;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#header2 .container2{
+    width: 80%;
+    height: 60px;
+    background-color: #047eb3;
+    display: flex;
+    justify-content: center;
+}
+
+#header2 .container2 .choose ul{
+    display: flex;
+    margin-left: -20px;
+    margin-top: 18px;
+}
+
+#header2 .container2 .choose ul li{
+    list-style: none;
+}
+
+#header2 .container2 a{
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+}
+
+#main{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#main .container3{
+    width: 80%;
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#main .container3 ul{
+    display: flex;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+#main .container3 ul li{
+    list-style: none;
+}
+
+#main .container3 ul li a{
+    text-decoration: none;
+    color: #047eb3;
+}
+
+#main .container3 .choose1{
+    width: 380px;
+    height: 80px;
+    background-color: rgb(206, 215, 241);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+#main .container3 .choose2{
+    width: 360px;
+    height: 80px;
+    background-color: rgb(206, 215, 241);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+#main .container3 .choose3{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(206, 215, 241);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+#main .container3 .choose1 li{
+    padding-top: 20px;
+}
+
+#main .container3 .fast-next{
+    padding-top: 28px;
+}
+
+#last-news{
+    background-color: white;
+    width: 100%;
+    height: 393px;
+    display: flex;
+    justify-content: center;
+}
+
+#last-news .container4{
+    width: 80%;
+    height: 393px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#last-news .container4 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 343px;
+    margin-left: 40px;
+}
+
+#last-news .container4 .about{
+    width: 120px;
+    height: 40px;
+    background-color: #047eb3;
+    margin-left: 426px;
+    margin-top: -32px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#last-news .container4 ul li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+#last-news .container4 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#last-news .container4 .news1 img{
+    width: 585px;
+    height: 394px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -343px;
+}
+
+#last-news .container4 .news2 img{
+    width: 280px;
+    height: 175px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -1px;
+    border-radius: 10px;
+}
+
+#last-news .container4 .news2 ul li{
+    font-size: 14px;
+    padding-top: 125px;
+    padding-left: 15px;
+}
+
+#last-news .container4 .news3 img{
+    width: 280px;
+    height: 175px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 59px;
+}
+
+#last-news .container4 .news3 ul li{
+    font-size: 14px;
+    padding-top: 185px;
+    padding-left: 15px;
+}
+
+#last-news .container4 .latest-news{
+    width: 270px;
+    height: 384px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow-y: auto;
+    border-radius: 5px;
+    border: solid 1px #047EB3;
+}
+
+#last-news .container4 .latest-news .news{
+    width: 251px;
+    border-radius: 5px;
+    border: solid 1px #C1C1C1
+}
+
+#last-news .container4 .latest-news .title{
+    padding-left: 10px;
+}
+
+#last-news .container4 .latest-news .title a{
+    color: #047EB3;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#last-news .container4 .latest-news .news a{
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#last-news .container4 .latest-news .news a:hover{
+    background-color: #D7EAF3;
+}
+
+#last-news .container4 .latest-news .news a:active{
+    background-color: #047eb3;
+    color: black;
+}
+
+#last-news .container4 .site-bar{
+    width: 50px;
+    background-color: #047EB3;
+    border-radius: 13px;
+    float: right;
+    margin-right: -50px;
+    margin-top: -350px;
+}
+
+#last-news .container4 .site-bar a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+#last-news .container4 .site-bar a:hover{
+    background-color: rgb(18, 59, 211);
+    border-radius: 13px;
+}
+
+#last-news .container4 .site-bar i{
+    font-size: 20px;
+}
+
+#last-news .container4 .contact{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#last-news .container4 .contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+
+}
+
+.col-9 {
+    width: 75%;
+
+}
+
+.col-10 {
+    width: 83.33%;
+
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
+
